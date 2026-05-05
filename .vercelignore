@@ -1,0 +1,15 @@
+# Exclude heavy/unnecessary folders from Vercel deployment
+/node_modules
+/tests
+/php-bin
+/php.zip
+/.github
+
+# Exclude large binary files
+composer.phar
+
+# Exclude dev files
+.env
+CONTRIBUTING.md
+CODE_OF_CONDUCT.md
+SECURITY.md
