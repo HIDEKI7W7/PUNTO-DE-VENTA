@@ -12,7 +12,7 @@ class homeController extends Controller
     public function index()
     {
         if (!Auth::check()) {
-            return view('welcome');
+            return redirect()->route('login.index');
         }
 
         $totalVentasPorDia = DB::table('ventas')
