@@ -14,8 +14,13 @@ class EmpresaSeeder extends Seeder
     public function run(): void
     {
         Empresa::insert([
+<<<<<<< HEAD
             'nombre' => 'EL PUNTO',
             'propietario' => 'EL PUNTO',
+=======
+            'nombre' => 'Hide.dev',
+            'propietario' => 'Hide.dev',
+>>>>>>> 686f7ebef679ff533eedd7693d44aa7779d8175d
             'ruc' => '1089674538',
             'porcentaje_impuesto' => '15',
             'abreviatura_impuesto' => 'IGV',
